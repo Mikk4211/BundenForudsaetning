@@ -5,10 +5,11 @@ public class DatHoldet {
     String navn;
     int alder;
 
+    // Deklaration af 4 studerende. Trukket fra klassen "Studerende"
     static Studerende stu1 = new Studerende("Mikkel", 20);
     static Studerende stu2 = new Studerende("Johan", 20);
     static Studerende stu3 = new Studerende("Mathias", 20);
-    static Studerende stu4 = new Studerende("Benjamin", 23);
+    static Studerende stu4 = new Studerende("Benjamin", 26);
 
     public String setNavn(){
         return navn;
